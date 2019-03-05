@@ -1,5 +1,5 @@
 {
-  "name": "upload-wxgzh",
+  "name": "new-wlw",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,10 +8,9 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.2.5",
     "axios": "^0.18.0",
-    "babel-polyfill": "^6.26.0",
-    "element-ui": "^2.6.1",
+    "echarts": "^4.1.0",
+    "element-ui": "^2.5.4",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -26,38 +25,5 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue-template-compiler": "^2.5.21"
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "jsx",
-      "json",
-      "vue"
-    ],
-    "transform": {
-      "^.+\\.vue$": "vue-jest",
-      ".+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
-      "^.+\\.jsx?$": "babel-jest"
-    },
-    "moduleNameMapper": {
-      "^@/(.*)$": "<rootDir>/src/$1"
-    },
-    "snapshotSerializers": [
-      "jest-serializer-vue"
-    ],
-    "testMatch": [
-      "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
-    ],
-    "testURL": "http://localhost/"
   }
 }
